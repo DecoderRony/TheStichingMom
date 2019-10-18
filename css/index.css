@@ -9,7 +9,7 @@ h1,h3,h4,h5,h6{
 }
 
 .carousel-inner .carousel-item{
-    height: 91vh;
+    height: 100vh;
      background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,6 +38,7 @@ h1,h3,h4,h5,h6{
     width: 300px;
     height: auto;
     border: 2px solid grey;
+    border-radius: 5px;
     padding: 5px 5px;
 }
 
@@ -68,6 +69,36 @@ h1,h3,h4,h5,h6{
     padding-top: 10px;
     padding-left: 10px;
 }
+
+
+
+#buy-section{
+    margin-top: -30px;
+    background: url("../img/img5.jpg") grey;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 1;
+    margin-bottom: -30px;
+}
+
+#buy-section h3{
+    color: white;
+}
+
+#buy-section p{
+    font-size: 18px;
+    color: white;
+}
+
+#buy-bttn{
+    width: 150px;
+    padding: 10px 0px;
+    transition: 0.6s;
+}
+
+
 
 
 @media (max-width:600px){
@@ -105,4 +136,7 @@ h1,h3,h4,h5,h6{
         font-size: 14px;
     }
 }
+    
+    
+
 
