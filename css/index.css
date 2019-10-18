@@ -1,0 +1,108 @@
+h1,h3,h4,h5,h6{
+        font-family: zigzagregular, sans-serif;
+
+}
+
+.navbar-brand{
+    font-family: zigzagregular;
+    font-size: 30px;
+}
+
+.carousel-inner .carousel-item{
+    height: 91vh;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-item img{
+   width: 100%;
+   position: center;
+}
+
+.carousel-inner .carousel-caption h4{
+    margin-top: -360px;
+}
+
+
+.carousel-inner .carousel-caption h4{
+    font-family: zigzagregular, sans-serif;
+    font-size: 40px;
+}
+
+#about{
+    background-color: whitesmoke;
+}
+
+.profile-pic{
+    width: 300px;
+    height: auto;
+    border: 2px solid grey;
+    padding: 5px 5px;
+}
+
+#about .container{
+    padding-bottom: 30px;
+}
+
+#about h3{
+    padding-top: 30px;
+}
+
+#about p{
+    font-size: 16px;
+    letter-spacing: 0.9;
+}
+
+#profile-pic{
+    text-align: right;
+}
+
+#social-media{
+    letter-spacing: 1;
+}
+
+.social-icons i{
+    font-size: 20px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+@media (max-width:600px){
+    
+    .navbar-brand{
+    font-family: zigzagregular;
+    font-size: 20px;
+}
+    
+    .carousel-item img{
+   width: auto;
+        height: 100vh;
+        
+}
+    
+    .carousel-inner .carousel-caption h4{
+    top: 50% !important;
+    transform: translateY(-50%)!important;
+}
+    
+    .carousel-inner .carousel-caption h4{
+    font-size: 30px;
+}
+    
+    #about h3{
+        font-size: 30px;
+    }
+    
+    #profile-pic{
+        text-align: center;
+    }
+    
+    #about p{
+        padding-top: 40px;
+        font-size: 14px;
+    }
+}
+
