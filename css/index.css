@@ -1,3 +1,7 @@
+@font-face{
+    font-family: zigzagregular;
+    src: url('../fonts/zig.ttf');
+}
 h1,h3,h4,h5,h6{
         font-family: zigzagregular, sans-serif;
 
